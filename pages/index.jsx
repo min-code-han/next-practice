@@ -1,9 +1,10 @@
+import PageHeader from '@/components/PageHeader';
 import ProductList from '@/components/ProductList';
 function ProductPage() {
 
 	return (
     <div>
-      <h1>상품목록 페이지</h1>
+      <PageHeader title='상품 목록 페이지'/>
       <ProductList />
     </div>
   );
